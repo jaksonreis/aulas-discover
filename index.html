@@ -7,6 +7,68 @@
     <title>Discover</title>
 </head>
 <body>
+
+    <datalist id="numberlist">
+        <option>100</option>
+        <option>103</option>
+    </datalist>
+
+    <form id="15">
+        <fieldset>
+            <legend>Number</legend>
+            <input type="number" min="2" max="999" step="2" placeholder="Digite somente números" list="numberlist" required>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+    <form id="16">
+        <fieldset>
+            <legend>Range</legend>
+            <input type="range" min="1" max="100" step="5" value="10" required>
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+        <form id="17">
+            <fieldset>
+                <legend>Date</legend>
+                <input type="date" value="2021-03-03" >
+                <input type="datetime-local" >
+                <input type="month" >
+                <input type="time" >
+                <input type="week" >
+                <button type="submit">Enviar</button>
+            </fieldset>
+    </form>
+    <!--
+        Desenhando
+        - Pensar nos requisitos
+        - Ajudar a definir as necessidades
+
+        Dicas:
+        - Simples e focado
+        - Somente dados necessários
+        - Verifique o que te agrada
+    -->
+
     
+<!-- Desafio -->
+    <form action="" id="35">
+        <fieldset>
+            <legend>Contato</legend>
+            <label>Nome<br>
+                <input type="text" id="nome" name="nome" placeholder="Digita seu nome" required><br><br>
+            </label>
+            <label>Email<br>
+                <input type="email" id="email" name="email" placeholder="Digita seu email" required><br><br>
+            </label>
+            <label>Mensagem<br>
+                <textarea id="mensagem" name="mensagem" placeholder="Digita sua mensagem" cols="30"  rows="10" required></textarea><br><br>
+            </label>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+
+
 </body>
 </html>
