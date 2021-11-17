@@ -1,0 +1,83 @@
+<!-- Vale olhar na Documentação
+         Para melhor compreender cada elemento
+        e seus atributos 
+           MDN Web Docs
+        site: https://developer.mozilla.org/pt-BR/
+    -->
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Audio & Vídeo</title>
+</head>
+<body>
+
+    <header><!-- cabeçario do site, inicio da pagina -->
+        Rocketdeat 
+
+        <nav> <!--navegação do site, navegação especial, principal   -->
+            <ul><!--lista   -->
+                <li>item-1</li>
+                <li>item-2</li>
+                <li>item-3</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main><!--somente um por página, conteudo principal  -->
+        <h1>Midia</h1>
+        <p>Essa é uma página de midia diversas.</p>
+        <article><!--irá construir um bloco de conteudo que são relacionados  -->
+            <h2>Video de Trap</h2>
+            <video src="./pop_smoke.mp4"controls width="400" height="230" muted preload="auto" loop poster="./baseado.jpg">
+                <p>Seu browser nao suporta este video</p>
+            </video>
+        </article>
+        <article>
+            <h2>Musica de Pagode</h2>
+            <audio src="./arranhao_pagode.mp3"controls muted loop></audio>
+        </article>
+        <article>
+            <h2>Musica de Funk</h2>
+            <iframe width="400" height="230" src="https://www.youtube.com/embed/xm7TWFiZgTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Video de funk"></iframe>
+        </article>
+        <article>
+            <h2>Mapa da Casa</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.6325875487264!2d-44.449172685966154!3d-18.364038896263022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4df67a4c6f966e63!2zMTjCsDIxJzUwLjYiUyA0NMKwMjYnNDkuMSJX!5e0!3m2!1spt-BR!2sbr!4v1637143374284!5m2!1spt-BR!2sbr" width="400" height="230" style="border:0;" allowfullscreen="" loading="lazy" tabindex="0" aria-hidden="false"></iframe>
+        </article>
+        <article>
+        <a href="http://google.com">
+        <figure><!--entende semanticamente que é o titulo <figcaption> tem a ver com o elemento figure  -->
+            <figcaption>Imagem da natureza</igcaption>
+            
+            <img src="https://i1.wp.com/oespacodoconhecimento.com.br/wp-content/uploads/2019/09/cropped-cachoeiras-lago-azul.jpg?fit=900%2C506&ssl=1" alt="Imagem de natureza" title="Natureza Linda" width="400">
+        </figure></a>
+
+        </article>
+        <article>
+        <h2>Imagem natureza pelo Css</h2>
+
+        <p style="background-image: url('https://uploads.bemparana.com.br/upload/image/noticia/noticia_764699_img1_natureza.jpg')" >Imagem<br>Natureza é bela<br>Via a Magia<br>by Jakson Reis</p>
+
+        </article>
+        <article>
+        <h2>Imagem da natureza</h2>
+
+        <p style="background-image: url('https://uploads.bemparana.com.br/upload/image/noticia/noticia_764699_img1_natureza.jpg')" >Imagem<br>Natureza é bela<br>Via a Magia<br>by Jakson Reis</p>
+
+        </article>
+
+    </main>
+
+    <aside><!--conteudo levemente relacionado ao principal(main), explicações, glossários, link extras, biografia do autor, informações de perfil-->
+        parte lateral
+    </aside>
+    <footer><!--informações do autor, copyright, contato, sitemap, voltar ao topo  -->
+        rodapé do site
+    </footer>
+</body>
+</html>
+<!--<div> quando nao achar um elemento de bloco semantico <span> quando nao achar um elemento de texto semantico -->
