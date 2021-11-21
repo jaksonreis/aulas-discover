@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="./icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <title>Blog da Vitoria</title>
+
+
+    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bgGray{
+            background-color: rgb(100, 100, 100);
+        }
+    </style>
+
+</head>
+ <body class="h-screen bg-purple-100 flex flex-col items-center justify-center">
+     <header>
+         <h1 id="title">Aplicação para Aprendisagem</h1>
+
+        <nav> <!--navegação do site, navegação especial, principal   -->
+            <ul><!--lista   -->
+                <li>item-1</li>
+                <li>item-2</li>
+            <ul><!--lista   -->
+                <li class="blues">item-3</li>
+                <li>item-4</li>
+            </ul>
+            </ul>
+        </nav>
+    </header><br><br>
+     <main>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul><br><br>
+            <input type="text" required placeholder="Digite sua pesquisa"><br><br>
+        <article class="text">
+         <h2 class="subtitle">Texto 1 da Aplicação</h2>
+         <p>Este é um texto para fins didáticos. Ele será formatado usando o css. Muita atençao na hora de formatar is dados</p>
+         <p>Este é um texto para fins didáticos. Ele será formatado usando o css. Muita atençao na hora de formatar is dados</p>
+        </article><br>
+        <article class="text">
+         <h2 class="subtitle">Texto 2 da Aplicação</h2>
+         <p>Este é um texto para fins didáticos. Ele será formatado usando o css. Muita atençao na hora de formatar is dados</p>
+         <p>Este é um texto para fins didáticos. Ele será formatado usando o css. Muita atençao na hora de formatar is dados</p>
+        </article><br>
+        <article class="text">
+         <h2 class="subtitle">Texto 3 da Aplicação</h2>
+         <p>Este é um texto para fins didáticos. Ele será formatado usando o css. Muita atençao na hora de formatar is dados</p>
+         <p>Este é um texto para fins didáticos. Ele será formatado usando o css. Muita atençao na hora de formatar is dados</p>
+        </article><br>
+
+        <article><h2 class="subtitle">Dinamica da Aplicação</h2>
+     <button id="openModal" class="bg-purple-700 text-white py-2 px-4 rounded">Abrir Janela</button>
+
+
+     <div class="modal-wrapper invisible">
+         <div class="p-8 bg-white text-center rounded">
+             <p>Tecle ESC para fechar</p>
+         </div>
+     </div>
+
+        </article>
+         
+
+     </main>
+     <footer>
+         Autor Aluno Jakson Reis - Rocketseat Curso
+     </footer>
+
+     <script src="./modal.js"></script>
+ </body>
+<body>
+    
+</body>
+</html>
+
