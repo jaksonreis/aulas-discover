@@ -1,6 +1,5 @@
-body {
-    margin: 0px;
-}
+
+
 body article p{
     font-size: 10px;
     color: rgb(78, 78, 78);
@@ -76,3 +75,30 @@ nav ul li:hover::before {
 ::selection {
     background-color: rgb(0, 255, 255);
   }
+  header {
+      background-color: gold;
+      padding: 0 10px;
+      margin: 10%;
+      box-sizing: border-box;
+
+  }
+  header:hover {
+      background-color: hotpink;
+  }
+  /*
+  Display Block
+
+  Ocupa 100% da largura do elemento pai
+  Ocupa sempre a sua própria linha e é posicionado abaixo do elemento anterior
+  A altura é definida de acordo com o conteúdo interno
+  É possível definir Width e Height
+  Você pode definir valores de margin-top e margin-bottom
+  Display Inl ine 
+  
+  Ocupa a largura total do seu conteúdo apenas
+  Um elemento inline após outro elemento inline ocupam a mesma linha
+  Não é possível definir Width e Height
+  Não é possível definir valores de margin-top e margin-bottom
+  Ao aplicar o float, automaticamente eles assumem características de display block
+  Se aplicado dentro de um texto, irá seguir o fluxo do conteúdo
+  */
